@@ -21,3 +21,12 @@ console.log(funzioneSommaArrow(2, 7));
 const quadrato = (a) => a * a;
 
 console.log(quadrato(3));
+
+// snack 3
+const sottrazione = (a, b) => a - b;
+const divisione = (a, b) => a / b;
+
+const eseguiOperazione = (a, b, callback) => callback(a, b);
+
+console.log(eseguiOperazione(6, 2, sottrazione));
+console.log(eseguiOperazione(6, 2, divisione));
