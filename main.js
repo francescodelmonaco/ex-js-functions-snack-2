@@ -16,3 +16,8 @@ console.log(funzioneSommaAnonima(10, 22));
 const funzioneSommaArrow = (a, b) => a + b;
 
 console.log(funzioneSommaArrow(2, 7));
+
+// snack 2
+const quadrato = (a) => a * a;
+
+console.log(quadrato(3));
