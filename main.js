@@ -58,3 +58,14 @@ function creaContatoreAutomatico(ms) {
 
 const avviaContatore = creaContatoreAutomatico(1000);
 avviaContatore();
+
+// snack 7
+function eseguiEferma(text, start, stop) {
+
+    const loop = setInterval(() => console.log(text), start);
+
+    setTimeout(() => clearInterval(loop), stop);
+
+};
+
+eseguiEferma("Messaggio", 1000, 10000);
