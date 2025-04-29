@@ -30,3 +30,10 @@ const eseguiOperazione = (a, b, callback) => callback(a, b);
 
 console.log(eseguiOperazione(6, 2, sottrazione));
 console.log(eseguiOperazione(6, 2, divisione));
+
+// snack 4
+function creaTimer(ms) {
+    setTimeout(() => console.log("Tempo scaduto!"), ms)
+};
+
+creaTimer(2000);
