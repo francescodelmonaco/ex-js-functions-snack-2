@@ -37,3 +37,10 @@ function creaTimer(ms) {
 };
 
 creaTimer(2000);
+
+// snack 5
+function stampaOgniSecondo(text) {
+    setInterval(() => console.log(text), 1000)
+};
+
+stampaOgniSecondo("Stampo ogni secondo...");
