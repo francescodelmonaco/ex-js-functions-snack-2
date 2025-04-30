@@ -69,3 +69,17 @@ function eseguiEferma(text, start, stop) {
 };
 
 eseguiEferma("Messaggio", 1000, 10000);
+
+// snack 8
+function contoAllaRovescia(n) {
+    const contatore = setInterval(() => {
+        console.log(n);
+        n--;
+        if (n == 0) {
+            console.log("Tempo scaduto!");
+            clearInterval(contatore);
+        };
+    }, 1000);
+};
+
+contoAllaRovescia(10);
